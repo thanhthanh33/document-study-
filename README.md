@@ -1,14 +1,12 @@
-def factorial(n):
-    """
-    This function calculates the factorial of a non-negative integer.
-    """
-    if n < 0:
-        return "Giai thừa không tồn tại cho số âm"
-    elif n == 0:
-        return 1
-    else:
-        result = 1
-        for i in range(1, n + 1):
-            result *= i
-        return result
-    
+# Test GitHub repository
+
+def add(a, b):
+    return a + b
+
+def main():
+    print("Hello, GitHub!")
+    result = add(5, 7)
+    print(f"The sum of 5 and 7 is: {result}")
+
+if __name__ == "__main__":
+    main()
