@@ -11,7 +11,3 @@ def factorial(n):
         for i in range(1, n + 1):
             result *= i
         return result
-
-# Ví dụ sử dụng hàm
-number = 5
-print(f"Giai thừa của {number} là: {factorial(number)}")
